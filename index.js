@@ -18,7 +18,7 @@ const app = express();
 
 // Konfigurasi CORS yang lebih lengkap
 const corsOptions = {
-  origin: 'https://jelajah-jogja-front-three.vercel.app/', // Sesuaikan dengan port frontend Anda
+  origin: 'https://jelajah-jogja-front-three.vercel.app', // Sesuaikan dengan port frontend Anda
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
