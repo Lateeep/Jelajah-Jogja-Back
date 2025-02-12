@@ -2,15 +2,14 @@ import { Sequelize } from "sequelize";
 import mysql2 from "mysql2";
 
 const db = new Sequelize(
-  "jejak_latep",
-  "root",
-  "",
+  "byoxqg1xachfktgnknmc",
+  "uknd7wis8uffehgp",
+  "uknd7wis8uffehgp",
   {
-    host: "localhost",
+    host: "byoxqg1xachfktgnknmc-mysql.services.clever-cloud.com",
     dialect: "mysql",
     port: "3306",
-    dialectModule: mysql2,
-    logging: false
+    dialectModule: mysql2
   }
 );
 
