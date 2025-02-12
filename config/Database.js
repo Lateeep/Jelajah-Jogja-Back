@@ -4,7 +4,7 @@ import mysql2 from "mysql2";
 const db = new Sequelize(
   "byoxqg1xachfktgnknmc",
   "uknd7wis8uffehgp",
-  "uknd7wis8uffehgp",
+  "svY6NeAfbcKHtNowF71D",
   {
     host: "byoxqg1xachfktgnknmc-mysql.services.clever-cloud.com",
     dialect: "mysql",
